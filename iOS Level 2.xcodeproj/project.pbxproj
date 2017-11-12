@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6DF94D991FB89AC70001E43B /* GeekBrainsLesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekBrainsLesson2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF94D991FB89AC70001E43B /* iOS Level 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Level 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF94D9C1FB89AC70001E43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF94DA11FB89AC70001E43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DF94DA31FB89AC70001E43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		6DF94D901FB89AC70001E43B = {
 			isa = PBXGroup;
 			children = (
-				6DF94D9B1FB89AC70001E43B /* GeekBrainsLesson2 */,
+				6DF94D9B1FB89AC70001E43B /* iOS Level 2 */,
 				6DF94D9A1FB89AC70001E43B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		6DF94D9A1FB89AC70001E43B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DF94D991FB89AC70001E43B /* GeekBrainsLesson2.app */,
+				6DF94D991FB89AC70001E43B /* iOS Level 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DF94D9B1FB89AC70001E43B /* GeekBrainsLesson2 */ = {
+		6DF94D9B1FB89AC70001E43B /* iOS Level 2 */ = {
 			isa = PBXGroup;
 			children = (
 				6DF94D9C1FB89AC70001E43B /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				6DF94DA51FB89AC70001E43B /* LaunchScreen.storyboard */,
 				6DF94DA81FB89AC70001E43B /* Info.plist */,
 			);
-			path = GeekBrainsLesson2;
+			path = "iOS Level 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DF94D981FB89AC70001E43B /* GeekBrainsLesson2 */ = {
+		6DF94D981FB89AC70001E43B /* iOS Level 2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DF94DAB1FB89AC70001E43B /* Build configuration list for PBXNativeTarget "GeekBrainsLesson2" */;
+			buildConfigurationList = 6DF94DAB1FB89AC70001E43B /* Build configuration list for PBXNativeTarget "iOS Level 2" */;
 			buildPhases = (
 				6DF94D951FB89AC70001E43B /* Sources */,
 				6DF94D961FB89AC70001E43B /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = GeekBrainsLesson2;
+			name = "iOS Level 2";
 			productName = GeekBrainsLesson2;
-			productReference = 6DF94D991FB89AC70001E43B /* GeekBrainsLesson2.app */;
+			productReference = 6DF94D991FB89AC70001E43B /* iOS Level 2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DF94D941FB89AC70001E43B /* Build configuration list for PBXProject "GeekBrainsLesson2" */;
+			buildConfigurationList = 6DF94D941FB89AC70001E43B /* Build configuration list for PBXProject "iOS Level 2" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DF94D981FB89AC70001E43B /* GeekBrainsLesson2 */,
+				6DF94D981FB89AC70001E43B /* iOS Level 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -275,9 +275,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GeekBrainsLesson2/Info.plist;
+				INFOPLIST_FILE = "iOS Level 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Reality-Shift.GeekBrainsLesson2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reality-Shift.iOS-Level-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GeekBrainsLesson2/Info.plist;
+				INFOPLIST_FILE = "iOS Level 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Reality-Shift.GeekBrainsLesson2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reality-Shift.iOS-Level-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DF94D941FB89AC70001E43B /* Build configuration list for PBXProject "GeekBrainsLesson2" */ = {
+		6DF94D941FB89AC70001E43B /* Build configuration list for PBXProject "iOS Level 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DF94DA91FB89AC70001E43B /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DF94DAB1FB89AC70001E43B /* Build configuration list for PBXNativeTarget "GeekBrainsLesson2" */ = {
+		6DF94DAB1FB89AC70001E43B /* Build configuration list for PBXNativeTarget "iOS Level 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DF94DAC1FB89AC70001E43B /* Debug */,

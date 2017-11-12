@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GeekBrainsLesson2.xcodeproj">
+      location = "self:/Users/mrwowander/Desktop/Git/GeekBrains/Level 2/iOS Level 2.xcodeproj">
    </FileRef>
 </Workspace>
