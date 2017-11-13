@@ -486,8 +486,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zl5-A5-O8l">
-                                                    <rect key="frame" x="136" y="4" width="142" height="34"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zl5-A5-O8l">
+                                                    <rect key="frame" x="136" y="6.6666666666666679" width="142" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -495,6 +495,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Zl5-A5-O8l" secondAttribute="trailing" constant="136" id="3Tp-uO-qcI"/>
+                                                <constraint firstItem="Zl5-A5-O8l" firstAttribute="top" secondItem="1cv-Eu-0XH" secondAttribute="top" constant="6.5" id="n6A-53-Af6"/>
                                                 <constraint firstItem="Zl5-A5-O8l" firstAttribute="leading" secondItem="1cv-Eu-0XH" secondAttribute="leading" constant="136" id="s88-Hp-m3p"/>
                                             </constraints>
                                         </tableViewCellContentView>
