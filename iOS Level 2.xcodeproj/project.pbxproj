@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D1B745C1FB9B7F2008184B5 /* foursquare_one_socialnetwork_20043.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D1B745B1FB9B7F1008184B5 /* foursquare_one_socialnetwork_20043.png */; };
 		6DF94D9D1FB89AC70001E43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF94D9C1FB89AC70001E43B /* AppDelegate.swift */; };
-		6DF94DA21FB89AC70001E43B /*  .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF94DA01FB89AC70001E43B /*  .storyboard */; };
+		6DF94DA21FB89AC70001E43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF94DA01FB89AC70001E43B /* Main.storyboard */; };
 		6DF94DA41FB89AC70001E43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF94DA31FB89AC70001E43B /* Assets.xcassets */; };
 		6DF94DA71FB89AC70001E43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF94DA51FB89AC70001E43B /* LaunchScreen.storyboard */; };
 		6DF94DAF1FB8BB730001E43B /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF94DAE1FB8BB730001E43B /* Auth.swift */; };
@@ -19,7 +19,7 @@
 		6D1B745B1FB9B7F1008184B5 /* foursquare_one_socialnetwork_20043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foursquare_one_socialnetwork_20043.png; sourceTree = "<group>"; };
 		6DF94D991FB89AC70001E43B /* iOS Level 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Level 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF94D9C1FB89AC70001E43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DF94DA11FB89AC70001E43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ .storyboard"; sourceTree = "<group>"; };
+		6DF94DA11FB89AC70001E43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DF94DA31FB89AC70001E43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DF94DA61FB89AC70001E43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DF94DA81FB89AC70001E43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			children = (
 				6DF94D9C1FB89AC70001E43B /* AppDelegate.swift */,
 				6DF94DAE1FB8BB730001E43B /* Auth.swift */,
-				6DF94DA01FB89AC70001E43B /*  .storyboard */,
+				6DF94DA01FB89AC70001E43B /* Main.storyboard */,
 				6DF94DA31FB89AC70001E43B /* Assets.xcassets */,
 				6DF94DA51FB89AC70001E43B /* LaunchScreen.storyboard */,
 				6DF94DA81FB89AC70001E43B /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				6DF94DA71FB89AC70001E43B /* LaunchScreen.storyboard in Resources */,
 				6DF94DA41FB89AC70001E43B /* Assets.xcassets in Resources */,
-				6DF94DA21FB89AC70001E43B /*  .storyboard in Resources */,
+				6DF94DA21FB89AC70001E43B /* Main.storyboard in Resources */,
 				6D1B745C1FB9B7F2008184B5 /* foursquare_one_socialnetwork_20043.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,12 +148,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6DF94DA01FB89AC70001E43B /*  .storyboard */ = {
+		6DF94DA01FB89AC70001E43B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6DF94DA11FB89AC70001E43B /* Base */,
 			);
-			name = " .storyboard";
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6DF94DA51FB89AC70001E43B /* LaunchScreen.storyboard */ = {
